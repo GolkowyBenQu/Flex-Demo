@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Flex</title>
+
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+<h1>Small items in one big container row</h1>
+<div class="flex-container big">
+    <div class="flex-item small">1</div>
+    <div class="flex-item small">2</div>
+    <div class="flex-item small">3</div>
+</div>
+
+<h1>Medium items in column</h1>
+<div class="flex-container column">
+    <div class="flex-item medium">1</div>
+    <div class="flex-item medium">2</div>
+    <div class="flex-item medium">3</div>
+</div>
+
+<h1>Big items in row, resized to container</h1>
+<div class="flex-container">
+    <div class="flex-item big">1</div>
+    <div class="flex-item big">2</div>
+    <div class="flex-item big">3</div>
+</div>
+
+<h1>Too many items, wraped to new line</h1>
+<div class="flex-container wrap">
+    <div class="flex-item small">1</div>
+    <div class="flex-item small">2</div>
+    <div class="flex-item small">3</div>
+    <div class="flex-item small">4</div>
+    <div class="flex-item small">5</div>
+    <div class="flex-item small">6</div>
+</div>
+
+<h1>Small items centered in container</h1>
+<div class="flex-container justify">
+    <div class="flex-item small">1</div>
+    <div class="flex-item small">2</div>
+    <div class="flex-item small">3</div>
+</div>
+
+<h1>Small items moved to end of row</h1>
+<div class="flex-container justify-end">
+    <div class="flex-item small">1</div>
+    <div class="flex-item small">2</div>
+    <div class="flex-item small">3</div>
+</div>
+
+<h1>Small items with margines around</h1>
+<div class="flex-container justify-around">
+    <div class="flex-item small">1</div>
+    <div class="flex-item small">2</div>
+    <div class="flex-item small">3</div>
+</div>
+
+<h1>Small items with margines between</h1>
+<div class="flex-container justify-between">
+    <div class="flex-item small">1</div>
+    <div class="flex-item small">2</div>
+    <div class="flex-item small">3</div>
+</div>
+
+<h1>Small items centered in big container</h1>
+<div class="flex-container big align-center">
+    <div class="flex-item small">1</div>
+    <div class="flex-item small">2</div>
+</div>
+
+<h1>Small items align top in big container</h1>
+<div class="flex-container big align-top">
+    <div class="flex-item small">1</div>
+    <div class="flex-item small">2</div>
+</div>
+
+<h1>Small items align stretch in big container</h1>
+<div class="flex-container big align-stretch">
+    <div class="flex-item small">1</div>
+    <div class="flex-item small">2</div>
+</div>
+
+<h1>Small items align baseline in big container</h1>
+<div class="flex-container big align-baseline">
+    <div class="flex-item small">1</div>
+    <div class="flex-item small">2</div>
+    <div class="flex-item small">3</div>
+</div>
+
+<h1>Small items ordered in container</h1>
+<div class="flex-container">
+    <div class="flex-item small" style="order: 3;">1</div>
+    <div class="flex-item small" style="order: 1;">2</div>
+    <div class="flex-item small" style="order: 2;">3</div>
+</div>
+
+<h1>Small two items on container ends</h1>
+<div class="flex-container justify-between">
+    <div class="flex-item medium" style="order: 3;">1</div>
+    <div class="flex-item medium" style="order: 1;">2</div>
+    <div class="flex-item medium transparent" style="order: 2; flex-basis: 40%"></div>
+</div>
+
+<h1>Small items in column in center of container</h1>
+<div class="flex-container column huge justify align-center">
+    <div class="flex-item small">1</div>
+    <div class="flex-item small">2</div>
+    <div class="flex-item small">3</div>
+</div>
+
+</body>
+</html>
